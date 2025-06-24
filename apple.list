@@ -1,11 +1,5 @@
-# NAME: Apple
-# DOMAIN: 272
-# DOMAIN-KEYWORD: 7
-# DOMAIN-SUFFIX: 1549
-# DOMAIN-WILDCARD: 15
-# IP-CIDR: 10
-# USER-AGENT: 23
-# TOTAL: 1876
+#本规则集由blackmatrix7的规则集改进
+#name：apple
 DOMAIN,apps.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,a1.mzstatic.com
@@ -1872,3 +1866,13 @@ USER-AGENT,AppleTV*
 USER-AGENT,com.apple.news*
 USER-AGENT,com.apple.trustd*
 USER-AGENT,com.apple.tv*
+#IP-CIDR,139.178.128.0/18
+#IP-CIDR,144.178.0.0/19
+#IP-CIDR,144.178.36.0/22
+#IP-CIDR,144.178.48.0/20
+IP-CIDR,17.0.0.0/8
+#IP-CIDR,192.35.50.0/24
+#IP-CIDR,198.183.17.0/24
+#IP-CIDR,205.180.175.0/24
+#IP-CIDR,63.92.224.0/19
+#IP-CIDR,65.199.22.0/23
